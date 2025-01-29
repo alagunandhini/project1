@@ -12,33 +12,40 @@
 <body>
     <nav class="navbar navbar-expand-lg " style="background-color: rgb(252, 242, 48);">
         <div class="container-fluid">
-          <a class="navbar-brand p-2" href="#">Vegetables shop</a>
+          <a class="navbar-brand p-2" href="#">Healthy Foods</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
         </div>
-        </div></nav>
-        <div class="card m-5 " style="width: 15rem; background-color:rgb(252, 242, 48); ">
-            <img src="https://www.jessicagavin.com/wp-content/uploads/2019/02/carrots-7-1200.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title" style="color:rgb(51, 22, 27);">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" style="background-color: rgb(51, 22, 27); border: none;">delete</a>
-            </div>
-          </div>
+        </div>
+     </nav>
+     <div class="container">
+      <div class="card mt-5 w- " style="width: 15rem; border: none; box-shadow: 0px 1px 3px  black;">
+        <img src="https://www.jessicagavin.com/wp-content/uploads/2019/02/carrots-7-1200.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="color:rgb(51, 22, 27);">Card title</h5>
+          <p class="card-text">Some quick example text .</p>
+          <a href="#" class="btn btn-primary" style="background-color: rgb(51, 22, 27); border: none;" onclick="delete1()">delete</a>
+        </div>
+      </div>
+     </div>
+
+       
           <div class="overlay"></div>
-          <button class="plus-button" id="plus">+</button>
-          <div class="form-1">
+    
+          <div class="form-1 ">
             <h3 style="text-align: center; margin-bottom: 20px;"> Add Product</h3>
             <form id="form-2">
                 <input class="field" type="text" id="name" placeholder="Name">
                 <input class="field" type="text" id="img" placeholder="Enter Image URL">
                 <textarea  class="field" id="description" placeholder="Write a Short Description"></textarea>
-               <div class="new"> <button class="button" id="Cancel">Cancel</button>
+               <div class="new">
+                 <button class="button" id="Cancel2">Cancel</button>
                 <button  class="button" id="Add">Add</button></div> 
             </form>
           </div>
+          <button class="plus-button" id="plus">+</button>
          
 </body>
 <script src="new.js"></script>
