@@ -32,6 +32,13 @@ add1.addEventListener("click", function(){
               <a href="#" class="btn btn-primary" style="background-color: rgb(51, 22, 27); border: none;" onclick="delete2(this)">delete</a>
             </div>`
           container1.appendChild(div1)
+          name1.value="";
+          name1.focus()
+          img1.value="";
+          img1.focus()
+          des.value="";
+          des.focus()
+
           overlay1.style.display="none";
           forms.style.display="none";
 })
